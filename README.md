@@ -789,6 +789,10 @@ shasum -a 256 game/files-pal-es/default.xex
 # must print aad15fc218d034de3131f746e0b763dd8049a40dd676efc87667fcaf4fc72694
 tools/XenonRecomp/build/XenonRecomp/XenonRecomp config/pal-es/nfsmw.toml tools/XenonRecomp/XenonUtils/ppc_context.h
 python3 scripts/region_ppc.py ppc-pal-es pal_es
+
+# Experimental, for the German (PAL) disc: its config, address table and code are generated from
+# your own USA and German discs first (ppc-pal-de/; -DSB_PAL_DE=OFF leaves it out). The steps are
+# in docs/REGION_PAL_DE.md.
 ```
 
 #### 3. Build
