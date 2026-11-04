@@ -76,10 +76,9 @@ endif()
 
 # The European (PAL, German) release's code, the same way (../ppc-pal-de:
 # XenonRecomp with config/pal-de/nfsmw.toml on that disc's default.xex, then
-# scripts/region_ppc.py ppc-pal-de pal_de; docs/REGION_PAL_DE.md). Its
-# address table and names (runtime/region/pal_de_addresses.inc,
-# pal_de_names.h) come from survey/region_map.py --region pal-de, run on the
-# player's own USA and German default.xex, so they must be there too.
+# scripts/region_ppc.py ppc-pal-de pal_de). Its address table and names
+# (runtime/region/pal_de_addresses.inc, pal_de_names.h; docs/REGION_PAL_DE.md)
+# must be there too.
 # SB_PAL_DE: AUTO (when ppc-pal-de/ is there), ON (required) or OFF.
 set(SB_PAL_DE AUTO CACHE STRING "Link the PAL (German) release's recompiled code: AUTO, ON or OFF")
 file(GLOB PPC_PAL_DE_SOURCES ${ROOT}/ppc-pal-de/*.cpp)

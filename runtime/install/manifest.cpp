@@ -4,9 +4,8 @@
 #include <cassert>
 #include <iterator>
 
-// The German disc's list is generated from the player's own disc
-// (scripts/gen_install_manifest.py, docs/REGION_PAL_DE.md); without it the
-// build knows the other two regions only.
+// The German disc's list (docs/REGION_PAL_DE.md); a tree without it knows the
+// other two regions only.
 #if __has_include("manifest_pal_de.inc")
 #define SB_PAL_DE_MANIFEST 1
 #else

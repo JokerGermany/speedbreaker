@@ -29,9 +29,8 @@
 // (Spanish): its movie name's language and its speech record are redirected
 // (Files::movieRedirect, speechRedirect). The European (PAL, German) disc's
 // executable is taken the same way, with German (2) as the disc's own
-// language (DiscLanguage); that its boot passes 2 and its disc holds German
-// movies and speech is assumed from the Spanish SKU, not measured. None of
-// this applies to the USA disc, which always has English's.
+// language (DiscLanguage): its boot passes 2, and its disc holds German
+// movies and speech (copspeech_ge). None of this applies to the USA disc, which always has English's.
 // Files says what the installed files have for a language (the text pack
 // and the speech bank in NFS/ZDIR.BIN, its movies in Movies/), and Note /
 // LogLine say it in words. Measured with the USA disc's files in Spanish and

@@ -3,9 +3,8 @@
 // The known-good discs: every file's disc-relative path, size and SHA-256,
 // generated from a verified dump by scripts/gen_install_manifest.py, one per
 // supported release (region): manifest.inc (USA), manifest_pal_es.inc
-// (Europe, the PAL disc with Spanish speech and movies) and, when it is there,
-// manifest_pal_de.inc (Europe, the German PAL disc: generated from the
-// player's own disc, see docs/REGION_PAL_DE.md). Each region's code is
+// (Europe, the PAL disc with Spanish speech and movies) and manifest_pal_de.inc
+// (Europe, the German PAL disc). Each region's code is
 // recompiled from that one default.xex, so its hash doubles as the
 // supported-version check and says which region a disc or install is (the
 // title ID is the same in all).
